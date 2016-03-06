@@ -1,0 +1,10 @@
+importFrom(rio, .import, .export)
+import(h5)
+import(ncdf4)
+
+S3method(.import, rio_h5)
+S3method(.export, rio_h5)
+
+S3method(.import, rio_nc)
+S3method(.export, rio_nc)
+
